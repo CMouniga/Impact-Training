@@ -1,0 +1,95 @@
+Name : Mouniga C
+Domain : Testing
+JAVA
+1. Difference between the Interface and Class
+Interface:
+The Keyword is used to create an interface is "interface".
+It is used to achieve the Abstraction and multiple Inheritance.
+It is a blueprint of class.
+It cannot inherit a class.
+Class:
+The keyword is used to create a class is "class".
+It is a blueprint of creating a objects.
+It can be inherited from another class.
+Classes do not support the multiple Inheritance.
+2. List out 15 Interface names in Java.
+ActionListener: Interface for receiving action events.
+Comparable: Interface for comparing objects.
+Runnable:Interface for running threads.
+Iterable:Interface for iterating over collections.
+Iterator:Interface for iterating over collections
+Collection:Interface for collections.
+List:Interface for lists.
+Set:Interface for sets.
+Map:Interface for maps.
+Mouselistener:Interface for receiving mouse events.
+KeyListener: Interface for receiving keyboard events.
+Serializable: Interface for serializing objects.
+Cloneable: Interface for cloning objects.
+EventListener: Interface for receiving events.
+Callable: Interface for running running tasks that return a result.
+3. Why interface is base?
+	An Interface is considered the base of a class or another interface because it provides a contract or blueprint that must be implemented. It also provides inheritance mechanism for classes to follow, enabling polymorphism, abstraction and multiple inheritance.
+4.Why map is not in Collection?
+Map is not part of the collection interface because it has a different data structure and behavior.
+Main reasons:
+Collection stores individual elements.This difference in data structure makes Map distinct from collection.
+There are no duplicate keys.In contract, A collection can have duplicate elements.
+Map provides fast lookup,insertion and deletion operations using keys,which is not a primary concern for collection.
+5. Define Throw and Throws
+Throw:
+Exceptions are handle runtime errors or unexpected conditions that occur during the excution of a program.
+Main Reasons:
+Exceptions allow us to handle error in a centralized and structured way,making our code more robust and reliable.
+Exception make our code more readable by providing a clear and concise way to indicate that an error has occurred.
+By using exceptions,we can avoid duplicating error-handling code throughout our program.
+Expections allow us to provide more informative and helpful error messages, making it easier for users to understand and resolve errors.
+Throws:
+It can separate the error-handling code from the main logic of our program,making our code more modular and earier to maintain.
+It can be used to enforce contracts or preconditions in our code, ensuring that  our methods are used correctly.
+6. Why dictionary is not in collection?
+A Dictionary is a data structure that stores key-value pairs, whereas a collection is a data structure that stores a group of objects.
+A Dictionary stores key-values pairs,wheares a colection stores individual objects.
+A dictionary does not provide an iterator to iterate over its elements, wheares a collection provides an iterator to iterate over its elements.
+7. Rules to declare interface name?
+Interface names must start with a letter(a-z or A-Z).
+Interface names can contain letters(a-z or A-Z),digits(0-9) and underscores(_).
+It cannot start with digit(0-9).
+It cannot contain special characters like !,@,#,$ etc.
+Interface names are case-sensitive.
+Interface names must be unique within a package. 
+8. Explain Hashmap,Hashset,Treeset
+i) Hashmap:
+	Hashmap is a class that implements the map interface and provides the data structure for storing key-values pair.
+Characteristices:
+Hashmap stores data in the form of key-value pairs.
+Hashmap uses hashing to store and retrieve the data efficiently.
+Hashmap provides fast lookups with an average time complexity of 0(1).
+Hashmap allows one null key and multiple null values.
+ii) Hashset:
+Hashmap is a class that implements the set interface and provides the data structure for storing unique elements.
+Characteristices:
+Hashset uses hashing to store and retrieve the elements efficiently.
+Hashset stores only unique elements, eliminating duplicates.
+ Hashset provides fast lookups with an average time complexity of 0(1).
+Hashset allows null elements.
+iii) Treeset:
+Hashmap is a class that implements the set interface and provides the data structure for storing unique elements in a sorted order.
+Characteristices:
+Treeset stores only unique elements, eliminating duplicates.
+Treeset stores elements in a sorted order, either naturally or using a custom comparator.
+Treeset does not allow null elements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
