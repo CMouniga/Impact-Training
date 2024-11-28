@@ -1,0 +1,40 @@
+Name : Mouniga C
+Domain : Testing
+STLC - Software Testing Life Cycle
+	Software Testing life cycle is a software approach to testing a software application to ensure that it meets the requirements and is free to defects.
+	It is used to ensure that the software is to high-quality, reliable and meets the needs of the end-users.
+Main goals of the STLC:
+The main goals is to identify and document any defects or issues in software application.
+This allow for issues to be addressed and resolved before software is released to public.
+Phrases of STLC:
+Requirement gathering
+Test Planning
+Test cases development
+Test Environment setup
+Test Execution
+Test Closure
+1. Requirement gathering :
+The quality assurance team meets with stakeholders to better understands the detailed knowledge of requirements.
+This Phrases delivers the software requirement document and Requirement Traceability Matrix (RTM).
+2. Test Planning :
+Estimating the time and cost required for testing.
+Identifying the test deliverables and milestones.
+Assigning roles and responsibilities to the testing team.
+This Phrase delivers that Test Plan Document.
+3. Test case Development :
+Identifying the test cases that will be developed.
+Writing test cases that are clear, concise, and easy to understand.
+Creating test data and test scenarios that will be used in the test cases.
+Identifying the expected results for each test case.
+This phrase delivers that Test case and Test data.
+4. Test Environment setup :
+Install Hardware and software as required
+The testing Environment is mirrors the production setup.
+Environment setup checklist.
+5. Test Execution :
+Test execution is an iterative process and may need to be repeated multiple times until all identified defects are fixed.
+Run the all test cases and compare the actual results and expected results.
+6. Test Closure :
+The purpose of this phrase is conclude the testing activities and learning document.
+Prepare a test summary report.
+Lessons learned document.
