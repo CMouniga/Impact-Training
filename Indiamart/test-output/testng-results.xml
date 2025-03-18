@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case-01 :]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Entering 'Home Decor Item' in the search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking the search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Capturing screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 1 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithValidInput.png' target='_blank'>Testcase:01-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case-02]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Entering '@@$#@#@#$' in the search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking the search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Capturing screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 2 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithInValidInput.png' target='_blank'>Testcase:02-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case-03]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Entering 'Home Decor Item' in the search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking the search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Setting location filter to 'Chennai'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Capturing screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 3 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithLocation.png' target='_blank'>Testcase:03-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case-04:]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Entering 'Plasic Chair' in the search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking the search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Capturing screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 4 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithMisSpelled.png' target='_blank'>Testcase:04-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case-05:]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Entering '#@#Plastic Chair' in the search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking the search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Capturing screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 5 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithSpecialCharacter.png' target='_blank'>Testcase:05-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case - 6:]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicked search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Selected a product from the search results.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Screenshot captured for Product Details.]]>
+    </line>
+    <line>
+      <![CDATA[Test case : 6 - Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductDetails.png' target='_blank'>Testcase:06-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case - 07 :]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicked search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Selected a product from the search results.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Switched to product window.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Entered mobile number for verification.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Clicked on a product image.]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Screenshot captured for Product Images.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductImages.png' target='_blank'>Testcase:07-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Product image verification completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Test case-08 : ]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicked search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Selected a product from the search results.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Switched to product window.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductRating.png' target='_blank'>Testcase:08-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Product Rating verification completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Test case-09 :]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicked search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Selected a product from the search results.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Switched to product window.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SuppilerDetails.png' target='_blank'>Testcase:09-Passed</a>]]>
+    </line>
+    <line>
+      <![CDATA[Product supplier details are verification completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Test case-10 :]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Clicked on shopping button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Searched for 'Home decor item'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Clicked on buy button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Switched to new window.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Entering user details]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Entering user details:Email]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Entering user details:FirstName]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Entering user details:LastName]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Entering user details:Address]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Entering user details:City]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Entering user details:Pincode]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Entering user details:phone]]>
+    </line>
+    <line>
+      <![CDATA[User details entered successfully.]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\CheckoutDetails.png' target='_blank'>Testcase:10-Passed</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-18T14:09:59 IST" name="Suite" finished-at="2025-03-18T14:10:39 IST" duration-ms="39734">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T14:09:59 IST" name="Test" finished-at="2025-03-18T14:10:39 IST" duration-ms="39734">
+      <class name="Indiamart.TestCases">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:09:59 IST" name="SetUp" finished-at="2025-03-18T14:10:02 IST" duration-ms="3389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchWithValidInput()[pri:1, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:02 IST" name="SearchWithValidInput" description="Test Case 1: Verify search functionality with a valid product name." finished-at="2025-03-18T14:10:05 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-01 :]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Entering 'Home Decor Item' in the search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking the search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Capturing screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 1 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithValidInput.png' target='_blank'>Testcase:01-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidInput -->
+        <test-method signature="SearchWithInValidInput()[pri:2, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:05 IST" name="SearchWithInValidInput" description="Test Case 2: Verify search functionality with an invalid product name." finished-at="2025-03-18T14:10:07 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-02]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Entering '@@$#@#@#$' in the search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking the search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Capturing screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 2 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithInValidInput.png' target='_blank'>Testcase:02-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithInValidInput -->
+        <test-method signature="SearchWithLocation()[pri:3, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:07 IST" name="SearchWithLocation" description="Test Case 3: Verify search functionality with product name and location filter." finished-at="2025-03-18T14:10:08 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-03]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Entering 'Home Decor Item' in the search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking the search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Setting location filter to 'Chennai'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Capturing screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 3 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithLocation.png' target='_blank'>Testcase:03-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithLocation -->
+        <test-method signature="SearchWithMisSpelled()[pri:4, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:08 IST" name="SearchWithMisSpelled" description="Test Case-4 : Verify search functionality with a misspelled product name." finished-at="2025-03-18T14:10:09 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-04:]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Entering 'Plasic Chair' in the search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking the search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Capturing screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 4 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithMisSpelled.png' target='_blank'>Testcase:04-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithMisSpelled -->
+        <test-method signature="SearchWithSpecialCharacter()[pri:5, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:09 IST" name="SearchWithSpecialCharacter" description="Test Case 5: Verify search functionality with special characters in the product name." finished-at="2025-03-18T14:10:09 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-05:]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Entering '#@#Plastic Chair' in the search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking the search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Capturing screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 5 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithSpecialCharacter.png' target='_blank'>Testcase:05-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithSpecialCharacter -->
+        <test-method signature="ProductDetails()[pri:6, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:09 IST" name="ProductDetails" description="Test case-06 : Verify that product details such as Title, Description, and Price are correctly displayed." finished-at="2025-03-18T14:10:14 IST" duration-ms="4521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case - 6:]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicked search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Selected a product from the search results.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Screenshot captured for Product Details.]]>
+            </line>
+            <line>
+              <![CDATA[Test case : 6 - Successfully completed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductDetails.png' target='_blank'>Testcase:06-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductDetails -->
+        <test-method signature="ProductImages()[pri:7, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:14 IST" name="ProductImages" description="Test case - 07 : Verify that product images are displayed correctly after selecting a product." finished-at="2025-03-18T14:10:22 IST" duration-ms="8440" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case - 07 :]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicked search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Selected a product from the search results.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Switched to product window.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Entered mobile number for verification.]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Clicked on a product image.]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Screenshot captured for Product Images.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductImages.png' target='_blank'>Testcase:07-Passed</a>]]>
+            </line>
+            <line>
+              <![CDATA[Product image verification completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductImages -->
+        <test-method signature="ProductRating()[pri:8, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:22 IST" name="ProductRating" description="Test case - 08 : Verify that Product Rating are displayed correctly after selecting a product." finished-at="2025-03-18T14:10:24 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-08 : ]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicked search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Selected a product from the search results.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Switched to product window.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductRating.png' target='_blank'>Testcase:08-Passed</a>]]>
+            </line>
+            <line>
+              <![CDATA[Product Rating verification completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductRating -->
+        <test-method signature="SuppilerDetails()[pri:9, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:24 IST" name="SuppilerDetails" description="Test case - 09 : Verify that product supplier details are displayed correctly." finished-at="2025-03-18T14:10:25 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-09 :]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Searched for 'Home Decor Item'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicked search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Selected a product from the search results.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Switched to product window.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SuppilerDetails.png' target='_blank'>Testcase:09-Passed</a>]]>
+            </line>
+            <line>
+              <![CDATA[Product supplier details are verification completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SuppilerDetails -->
+        <test-method signature="CheckoutDetails()[pri:10, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:25 IST" name="CheckoutDetails" description="Test case - 10 : Verify that Checkout Page are displayed correctly." finished-at="2025-03-18T14:10:38 IST" duration-ms="13654" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case-10 :]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Clicked on shopping button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Searched for 'Home decor item'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Clicked on buy button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Switched to new window.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Entering user details]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Entering user details:Email]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Entering user details:FirstName]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Entering user details:LastName]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Entering user details:Address]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Entering user details:City]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Entering user details:Pincode]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Entering user details:phone]]>
+            </line>
+            <line>
+              <![CDATA[User details entered successfully.]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\CheckoutDetails.png' target='_blank'>Testcase:10-Passed</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckoutDetails -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Indiamart.TestCases@6d24ffa1]" started-at="2025-03-18T14:10:38 IST" name="CloseBrowser" finished-at="2025-03-18T14:10:39 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Indiamart.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

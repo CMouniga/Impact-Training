@@ -1,0 +1,267 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 18 14:09:59 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39734 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Indiamart.TestCases.SearchWithLocation()'><b>SearchWithLocation</b><br>Test class: Indiamart.TestCases<br>Test method: Test Case 3: Verify search functionality with product name and location filter.<br/>
+<a href="#Output-1337655323" onClick='toggleBox("Output-1337655323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1337655323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1337655323">
+Test case-03<br/>
+Step 1: Entering 'Home Decor Item' in the search bar.<br/>
+Step 2: Clicking the search button.<br/>
+Step 3: Setting location filter to 'Chennai'.<br/>
+Step 4: Capturing screenshot.<br/>
+Test case : 3 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithLocation.png' target='_blank'>Testcase:03-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.ProductRating()'><b>ProductRating</b><br>Test class: Indiamart.TestCases<br>Test method: Test case - 08 : Verify that Product Rating are displayed correctly after selecting a product.<br/>
+<a href="#Output-181372317" onClick='toggleBox("Output-181372317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-181372317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-181372317">
+Test case-08 : <br/>
+Step 1: Searched for 'Home Decor Item'.<br/>
+Step 2: Clicked search button.<br/>
+Step 3: Selected a product from the search results.<br/>
+Step 4: Switched to product window.<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductRating.png' target='_blank'>Testcase:08-Passed</a><br/>
+Product Rating verification completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.SearchWithSpecialCharacter()'><b>SearchWithSpecialCharacter</b><br>Test class: Indiamart.TestCases<br>Test method: Test Case 5: Verify search functionality with special characters in the product name.<br/>
+<a href="#Output-941403433" onClick='toggleBox("Output-941403433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-941403433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-941403433">
+Test case-05:<br/>
+Step 1: Entering '#@#Plastic Chair' in the search bar.<br/>
+Step 2: Clicking the search button.<br/>
+Step 3: Capturing screenshot.<br/>
+Test case : 5 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithSpecialCharacter.png' target='_blank'>Testcase:05-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.SearchWithValidInput()'><b>SearchWithValidInput</b><br>Test class: Indiamart.TestCases<br>Test method: Test Case 1: Verify search functionality with a valid product name.<br/>
+<a href="#Output-1893899796" onClick='toggleBox("Output-1893899796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1893899796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893899796">
+Test case-01 :<br/>
+Step 1: Entering 'Home Decor Item' in the search bar.<br/>
+Step 2: Clicking the search button.<br/>
+Step 3: Capturing screenshot.<br/>
+Test case : 1 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithValidInput.png' target='_blank'>Testcase:01-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.ProductDetails()'><b>ProductDetails</b><br>Test class: Indiamart.TestCases<br>Test method: Test case-06 : Verify that product details such as Title, Description, and Price are correctly displayed.<br/>
+<a href="#Output-665988980" onClick='toggleBox("Output-665988980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665988980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665988980">
+Test case - 6:<br/>
+Step 1: Searched for 'Home Decor Item'.<br/>
+Step 2: Clicked search button.<br/>
+Step 3: Selected a product from the search results.<br/>
+Step 4: Screenshot captured for Product Details.<br/>
+Test case : 6 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductDetails.png' target='_blank'>Testcase:06-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.SearchWithMisSpelled()'><b>SearchWithMisSpelled</b><br>Test class: Indiamart.TestCases<br>Test method: Test Case-4 : Verify search functionality with a misspelled product name.<br/>
+<a href="#Output-521466380" onClick='toggleBox("Output-521466380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-521466380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-521466380">
+Test case-04:<br/>
+Step 1: Entering 'Plasic Chair' in the search bar.<br/>
+Step 2: Clicking the search button.<br/>
+Step 3: Capturing screenshot.<br/>
+Test case : 4 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithMisSpelled.png' target='_blank'>Testcase:04-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.CheckoutDetails()'><b>CheckoutDetails</b><br>Test class: Indiamart.TestCases<br>Test method: Test case - 10 : Verify that Checkout Page are displayed correctly.<br/>
+<a href="#Output-688113407" onClick='toggleBox("Output-688113407", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688113407" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688113407">
+Test case-10 :<br/>
+Step 1: Clicked on shopping button.<br/>
+Step 2: Searched for 'Home decor item'.<br/>
+Step 3: Clicked on buy button.<br/>
+Step 4: Switched to new window.<br/>
+Step 5: Entering user details<br/>
+Step 6: Entering user details:Email<br/>
+Step 7: Entering user details:FirstName<br/>
+Step 8: Entering user details:LastName<br/>
+Step 9: Entering user details:Address<br/>
+Step 10: Entering user details:City<br/>
+Step 11: Entering user details:Pincode<br/>
+Step 12: Entering user details:phone<br/>
+User details entered successfully.<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\CheckoutDetails.png' target='_blank'>Testcase:10-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.SuppilerDetails()'><b>SuppilerDetails</b><br>Test class: Indiamart.TestCases<br>Test method: Test case - 09 : Verify that product supplier details are displayed correctly.<br/>
+<a href="#Output-363616706" onClick='toggleBox("Output-363616706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-363616706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-363616706">
+Test case-09 :<br/>
+Step 1: Searched for 'Home Decor Item'.<br/>
+Step 2: Clicked search button.<br/>
+Step 3: Selected a product from the search results.<br/>
+Step 4: Switched to product window.<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SuppilerDetails.png' target='_blank'>Testcase:09-Passed</a><br/>
+Product supplier details are verification completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.SearchWithInValidInput()'><b>SearchWithInValidInput</b><br>Test class: Indiamart.TestCases<br>Test method: Test Case 2: Verify search functionality with an invalid product name.<br/>
+<a href="#Output-827579900" onClick='toggleBox("Output-827579900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827579900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827579900">
+Test case-02<br/>
+Step 1: Entering '@@$#@#@#$' in the search bar.<br/>
+Step 2: Clicking the search button.<br/>
+Step 3: Capturing screenshot.<br/>
+Test case : 2 - Successfully completed<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\SearchWithInValidInput.png' target='_blank'>Testcase:02-Passed</a><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+<tr>
+<td title='Indiamart.TestCases.ProductImages()'><b>ProductImages</b><br>Test class: Indiamart.TestCases<br>Test method: Test case - 07 : Verify that product images are displayed correctly after selecting a product.<br/>
+<a href="#Output-1544518128" onClick='toggleBox("Output-1544518128", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1544518128" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1544518128">
+Test case - 07 :<br/>
+Step 1: Searched for 'Home Decor Item'.<br/>
+Step 2: Clicked search button.<br/>
+Step 3: Selected a product from the search results.<br/>
+Step 4: Switched to product window.<br/>
+Step 5: Entered mobile number for verification.<br/>
+Step 6: Clicked on a product image.<br/>
+Step 7: Screenshot captured for Product Images.<br/>
+<a href='C:\Users\mouniga.chinna\eclipse-workspace\Indiamart\screenshots\ProductImages.png' target='_blank'>Testcase:07-Passed</a><br/>
+Product image verification completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>Indiamart.TestCases@6d24ffa1</td></tr>
+</table><p>
+</body>
+</html>
